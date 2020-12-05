@@ -1,0 +1,32 @@
+# We can confirm our prepared algorithm by the assistance of physically made dataset with its yield and attempting to accomplish the equivalent with our model.If our model accomplishes it we get the chance to see the evidence of effectiveness of our model.
+
+# The model predicted output for each of the test inputs are exactly matched with the NAND logic gate conventional output, i.e., truth table
+
+#NAND :
+
+#	x0	x1	y   code_output
+#	0	  0	  1    1
+#	0	  1	  1    1
+#	1	  0	  1    1
+#`	1	  1	  0    0
+
+#NOR :
+	x0	x1	y   code_output
+	0	0	1    1
+	0	1	0    0
+	1	0	0    0
+	1	1	0    0
+
+#OR :
+	x0	 x1	  y    code_output
+	0	  0	  0    0
+	0	  1	  1    1
+	1	  0	  1    1
+	1	  1	  1    1
+
+#AND :
+	x0	 x1	  y    code_output
+	0	  0	  0    0
+	0	  1	  0    0
+	1	  0	  0    0
+	1	  1	  1    1
